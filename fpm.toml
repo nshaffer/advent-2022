@@ -1,0 +1,27 @@
+name = "advent-2022"
+version = "0.1.0"
+license = "Public Domain"
+author = "Nathaniel Shaffer"
+maintainer = "nrshaffer@protonmail.com"
+copyright = "Copyright 2022, Nathaniel Shaffer"
+[build]
+auto-executables = false
+auto-tests = false
+auto-examples = false
+[install]
+library = false
+
+[[executable]]
+name = "day01"
+source-dir = "app"
+main = "day01.f90"
+
+[[executable]]
+name = "day02"
+source-dir = "app"
+main = "day02.f90"
+
+[[executable]]
+name = "day03"
+source-dir = "app"
+main = "day03.f90"

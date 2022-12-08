@@ -41,9 +41,12 @@ name = "day06"
 source-dir = "app"
 main = "day06.f90"
 
+[[executable]]
+name = "day07"
+source-dir = "app"
+main = "day07.f90"
 
 [[executable]]
-name = "day07_1"
+name = "day08"
 source-dir = "app"
-main = "day07_1.f90"
-
+main = "day08.f90"

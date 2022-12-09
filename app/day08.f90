@@ -76,6 +76,8 @@ contains
     max_score = 0
     do y = 2, ny-1
       do x = 2, nx-1
+        ! basic strategy: assume we can see to the edge, then march
+        ! out to see if line of sight is shorter
 
         ! up
         score(1) = y - 1

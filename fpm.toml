@@ -50,3 +50,9 @@ main = "day07.f90"
 name = "day08"
 source-dir = "app"
 main = "day08.f90"
+
+[[executable]]
+name = "day09"
+source-dir = "app"
+main = "day09.f90"
+
